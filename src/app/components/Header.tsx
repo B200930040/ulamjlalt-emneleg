@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -27,6 +27,7 @@ export default function Header() {
         <div className="text-2xl font-extrabold text-[#2E7D32] cursor-pointer select-none">
           Уламжлалт Эмнэлэг
         </div>
+      
 
         {/* Desktop nav */}
         <nav className="hidden md:flex space-x-8 font-semibold text-gray-700">
